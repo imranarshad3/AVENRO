@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "store",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-09-29",
+  "vars": {
+    "FREEBUFF_CLIENT_ID": "8bb8961f-2f88-45fe-8be6-16db1cbf436f",
+    "FREEBUFF_ISSUER": "https://freebuff.com/oidc",
+    "APP_ORIGIN": "http://localhost:3000"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "279009c7-5229-44bc-9007-2a7de4639775",
+      "database_name": "store"
+    }
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": true
+  },
+  "observability": { "enabled": true }
+}
