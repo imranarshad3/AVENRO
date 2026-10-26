@@ -6,12 +6,12 @@
   "vars": {
     "FREEBUFF_CLIENT_ID": "8bb8961f-2f88-45fe-8be6-16db1cbf436f",
     "FREEBUFF_ISSUER": "https://freebuff.com/oidc",
-    "APP_ORIGIN": "http://localhost:3000"
+    "APP_ORIGIN": "https://store.inoonmr.workers.dev"
   },
   "d1_databases": [
     {
       "binding": "DB",
-      "database_id": "279009c7-5229-44bc-9007-2a7de4639775",
+      "database_id": "3ce4d1f8-2047-4ea7-8e18-452cac367d12",
       "database_name": "store"
     }
   ],

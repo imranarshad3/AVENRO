@@ -11,3 +11,8 @@ store.tar.gz
 store.zip
 
 
+
+
+.env
+.env.*
+!.env.example
